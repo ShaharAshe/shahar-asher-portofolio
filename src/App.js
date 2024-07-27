@@ -1,10 +1,13 @@
 import './App.css';
-import Hello from './components/Hello';
+import RouteTable from './components/RouteTable';
+import './css/style.css'
 
 function App() {
   return (
     <div className="App">
-      <Hello></Hello>
+      <div className="container-fluid text-center">
+        <RouteTable/>
+      </div>
     </div>
   );
 }
