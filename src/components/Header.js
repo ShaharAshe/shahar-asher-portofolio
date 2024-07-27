@@ -24,6 +24,9 @@ function Header(){
                                         <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">Home</Link>
                                     </li>
                                     <li className="nav-item">
+                                        <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">About Me</Link>
+                                    </li>
+                                    <li className="nav-item">
                                         <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">Projects</Link>
                                     </li>
                                     <li className="nav-item">
