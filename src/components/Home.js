@@ -1,5 +1,4 @@
 import '../css/style.css';
-import { Link } from 'react-router-dom';
 import gitIcon from '../images/github.png';
 import linkedinIcon from '../images/linkedin.png';
 import mailIcon from '../images/email.png';
