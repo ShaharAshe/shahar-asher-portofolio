@@ -1,9 +1,9 @@
-import '../css/style.css'
+import '../css/style.css';
 import { Link } from "react-router-dom";
 
-function Header(){
-    return(
-        <>
+function Header() {
+    return (
+        <header className="header-container">
             <div className="container-fluid text-center">
                 <div className="row">
                     <div className="col">
@@ -13,33 +13,33 @@ function Header(){
 
                 <div className="row">
                     <div className="col">
-                        <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
+                        <nav className="navbar navbar-expand-lg navbar-dark">
                             <div className="container-fluid">
-                                <button className="navbar-toggler" style={{color:"whitesmoke"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon" style={{color:"whitesmoke"}}></span>
+                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span className="navbar-toggler-icon"></span>
                                 </button>
-                                <div className="collapse navbar-collapse" style={{color:"whitesmoke"}}s id="navbarNav">
-                                <ul className="navbar-nav">
-                                    <li className="nav-item">
-                                        <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">Home</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">About Me</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">Projects</Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link className="nav-link active" style={{color:"whitesmoke"}} aria-current="page" to="/">Contact</Link>
-                                    </li>
-                                </ul>
+                                <div className="collapse navbar-collapse" id="navbarNav">
+                                    <ul className="navbar-nav mx-auto">
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/">Home</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/about">About Me</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/projects">Projects</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/contact">Contact</Link>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </nav>
                     </div>
                 </div>
             </div>
-        </>
+        </header>
     );
 }
 

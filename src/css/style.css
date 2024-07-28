@@ -1,9 +1,88 @@
 body, div{
-    background-color: #3455c5;
+    background-color: black;
     color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img{
-    width: 25px;
-    height: 25px;
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    padding: 20px;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-text h1 {
+    font-size: 3em;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.intro-text .role {
+    font-size: 1.5em;
+    color: yellowgreen;
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
+.header-container {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+.header-container h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    border-color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+    background-image: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+    font-size: 1.1em;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: burlywood !important;
+}
+
+.navbar-nav {
+    flex-direction: row;
 }
