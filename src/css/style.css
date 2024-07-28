@@ -1,4 +1,3 @@
-/* General styling */
 body, div {
     background-color: black;
     color: whitesmoke;
@@ -8,7 +7,6 @@ body, div {
     box-sizing: border-box;
 }
 
-/* Home container styling */
 .home-container {
     display: flex;
     flex-direction: column;
@@ -50,7 +48,6 @@ body, div {
     transform: scale(1.1);
 }
 
-/* Header styling */
 .header-container {
     background-color: #333;
     color: whitesmoke;
@@ -88,7 +85,6 @@ body, div {
     flex-direction: row;
 }
 
-/* Projects container styling */
 .projects-container {
     padding: 20px;
 }
@@ -108,7 +104,6 @@ body, div {
     color: #cccccc;
 }
 
-/* Project card styling */
 .projects-list {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +161,6 @@ body, div {
     background-color: #0056b3;
 }
 
-/* Back to top button styling */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -187,7 +181,6 @@ body, div {
     transform: scale(1.1);
 }
 
-/* Additional hover effects */
 .btn-primary:hover {
     background-color: #0056b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

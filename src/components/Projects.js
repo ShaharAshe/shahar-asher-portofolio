@@ -59,7 +59,7 @@ function Projects() {
                 <ProjectsCards 
                     title="Matrix Operations with Cython" 
                     languageTools="Cython, C++, Python, Jupyter Notebook" 
-                    link="https://github.com/ShaharAshe/matrix_operations_cython" 
+                    // link="https://github.com/ShaharAshe/matrix_operations_cython" 
                 />
             </div>
             {showTopButton && (
