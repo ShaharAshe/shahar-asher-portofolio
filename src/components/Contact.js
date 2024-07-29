@@ -142,17 +142,17 @@ function Contact() {
                 />
                 <br />
                 <div>
-                    <label htmlFor="Description" className="form-label">* Description:</label>
-                    <input
-                        id="Description"
-                        type="text"
-                        name="Description"
-                        value={contactInfo.Description}
-                        onChange={handleChange}
-                        className="form-control"
-                        placeholder="Description"
-                    />
-                </div>
+                        <label htmlFor="Description" className="form-label">* Description:</label>
+                        <textarea
+                            id="Description"
+                            name="Description"
+                            value={contactInfo.Description}
+                            onChange={handleChange}
+                            className="form-control"
+                            placeholder="Description"
+                            rows="5"
+                        />
+                    </div>
                 <AlertForm
                     isAlert={alerts.Description}
                     msg={<>Description must not be empty!</>}

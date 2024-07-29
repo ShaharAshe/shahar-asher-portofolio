@@ -7,7 +7,7 @@ function Projects() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.pageYOffset > 300) {
+            if (window.pageYOffset > 0) {
                 setShowTopButton(true);
             } else {
                 setShowTopButton(false);
