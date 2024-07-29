@@ -17,13 +17,13 @@ function Contact() {
     });
     const [emailSent, setEmailSent] = useState(false);
     
-    const Name_pattern = /^[a-zA-Z]+$/;
+    const Name_pattern = /^[a-zA-Z ]+$/;
     const Email_pattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
     const Title_description = /^.+$/;
 
     const handleChange = (event) => {
         const { name, value } = event.target;
-        setContactInfo(values => ({ ...values, [name]: value.trim() }));
+        setContactInfo(values => ({ ...values, [name]: value }));
     };
 
     const handleAlert = (pattern, input, alertName) => {
@@ -150,7 +150,6 @@ function Contact() {
                             onChange={handleChange}
                             className="form-control"
                             placeholder="Description"
-                            rows="5"
                         />
                     </div>
                 <AlertForm
