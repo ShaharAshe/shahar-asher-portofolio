@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes } from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./Home";
 import About from "./About";
@@ -10,7 +10,7 @@ import '../css/style.css'
 
 function RouteTable(){
     return(
-        <BrowserRouter>
+        <HashRouter>
         <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -19,7 +19,7 @@ function RouteTable(){
                 <Route path="/contact" element={<Contact/>}/>
                 {/* <Route path="*" element={<ErrorPage/>} /> */}
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
