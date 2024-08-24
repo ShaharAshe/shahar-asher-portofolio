@@ -31,6 +31,11 @@ function Projects() {
                 <p className="projects-description">Explore my work, showcasing a range of projects from web applications to AI and game development.</p>
             </div>
             <div className="projects-list">
+                <ProjectsCards
+                    title="Tip Calculator Bot"
+                    languageTools="Python, Telegram Bot API"
+                    link="https://t.me/Calc_Tip_bot"
+                />
                 <ProjectsCards 
                     title="Pokémon Game" 
                     languageTools="C++, SFML, Tileson, Box2D, nlohmann library" 
