@@ -36,6 +36,11 @@ function Projects() {
                     languageTools="Python, Telegram Bot API"
                     link="https://t.me/Calc_Tip_bot"
                 />
+                <ProjectsCards
+                    title="Kinneret/Dead-Sea, sea level bot"
+                    languageTools="Python, Telegram Bot API, Requests, JSON"
+                    link="https://t.me/Kinneret_DeadSea_bot"
+                />
                 <ProjectsCards 
                     title="Pokémon Game" 
                     languageTools="C++, SFML, Tileson, Box2D, nlohmann library" 
