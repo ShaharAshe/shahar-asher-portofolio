@@ -32,6 +32,16 @@ function Projects() {
             </div>
             <div className="projects-list">
                 <ProjectsCards
+                    title="LeetCode Problem Solutions"
+                    languageTools="C++, C, Python, Java, JavaScript, PostgreSQL, MySQL"
+                    link="https://github.com/ShaharAshe/LeetCode"
+                />
+                <ProjectsCards
+                    title="Project Euler Problem Solutions"
+                    languageTools="Python"
+                    link="https://github.com/ShaharAshe/projec_euler"
+                />
+                <ProjectsCards
                     title="Tip Calculator Bot"
                     languageTools="Python, Telegram Bot API"
                     link="https://t.me/Calc_Tip_bot"
