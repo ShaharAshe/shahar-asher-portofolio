@@ -57,6 +57,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/PokemonClone" 
                 />
                 <ProjectsCards 
+                    title="Matrix Operations with Cython" 
+                    languageTools="Cython, C++, Python, Jupyter Notebook" 
+                    link="https://github.com/ShaharAshe/matrix_operations_cython" 
+                />
+                <ProjectsCards 
                     title="Cryptography Modules" 
                     languageTools="Python" 
                     link="https://github.com/ShaharAshe/Cryptography_modules" 
@@ -75,11 +80,6 @@ function Projects() {
                     title="Mars Photo Gallery" 
                     languageTools="JavaScript, HTML, CSS, Bootstrap, NASA API" 
                     link="https://github.com/ShaharAshe/mars_photo_gallery" 
-                />
-                <ProjectsCards 
-                    title="Matrix Operations with Cython" 
-                    languageTools="Cython, C++, Python, Jupyter Notebook" 
-                    // link="https://github.com/ShaharAshe/matrix_operations_cython" 
                 />
             </div>
             {showTopButton && (
