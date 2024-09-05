@@ -1,5 +1,6 @@
 import {HashRouter, Route, Routes } from "react-router-dom";
 import React from "react";
+import ReactGA from "react-ga4";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects"
@@ -10,6 +11,7 @@ import '../css/style.css'
 
 
 function RouteTable(){
+    ReactGA.initialize(process.env.REACT_APP_SERVICE_ID);
     return(
         <HashRouter>
         <Header/>

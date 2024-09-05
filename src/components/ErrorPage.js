@@ -2,8 +2,18 @@ import '../css/style.css';
 import gitIcon from '../images/github.png';
 import linkedinIcon from '../images/linkedin.png';
 import mailIcon from '../images/email.png';
+import ReactGA from "react-ga4";
+import { useEffect } from 'react';
+
 
 function Home() {
+    useEffect(() => {
+        ReactGA.send({
+            hitType: "pageview",
+            page: window.location.pathname,
+        });
+      }, []);
+
     return (
         <div className="home-container">
             <div className="intro-text">
