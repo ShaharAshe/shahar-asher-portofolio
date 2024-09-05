@@ -9,9 +9,10 @@ import { useEffect } from 'react';
 
 function Home() {
     useEffect(() => {
-        ReactGA.send({
+        ReactGA.page({
             hitType: "pageview",
             page: window.location.pathname,
+            title: "Home",
         });
       }, []);
 

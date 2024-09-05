@@ -7,6 +7,7 @@ function About() {
         ReactGA.send({
             hitType: "pageview",
             page: window.location.pathname,
+            title: "About",
         });
       }, []);
 

@@ -6,11 +6,12 @@ import ReactGA from "react-ga4";
 import { useEffect } from 'react';
 
 
-function Home() {
+function ErrorPage() {
     useEffect(() => {
         ReactGA.send({
             hitType: "pageview",
             page: window.location.pathname,
+            title: "Projects",
         });
       }, []);
 
@@ -35,4 +36,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default ErrorPage;

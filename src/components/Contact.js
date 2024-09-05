@@ -9,6 +9,7 @@ function Contact() {
         ReactGA.send({
             hitType: "pageview",
             page: window.location.pathname,
+            title: "Contact",
         });
       }, []);
 
