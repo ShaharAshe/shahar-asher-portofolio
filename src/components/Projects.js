@@ -1,18 +1,9 @@
 import ProjectsCards from "./ProjectsCards";
 import '../css/style.css';
 import { useState, useEffect } from 'react';
-import ReactGA from "react-ga4";
 
 
 function Projects() {
-    useEffect(() => {
-        ReactGA.send({
-            hitType: "pageview",
-            page: window.location.pathname,
-            title: "Projects",
-        });
-      }, []);
-
     const [showTopButton, setShowTopButton] = useState(false);
 
     useEffect(() => {

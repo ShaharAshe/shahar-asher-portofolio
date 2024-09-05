@@ -1,18 +1,9 @@
 import { useState, useEffect } from "react";
 import AlertForm from "./AlertForm";
 import emailjs from "@emailjs/browser";
-import ReactGA from "react-ga4";
 
 
 function Contact() {
-    useEffect(() => {
-        ReactGA.send({
-            hitType: "pageview",
-            page: window.location.pathname,
-            title: "Contact",
-        });
-      }, []);
-
     const [contactInfo, setContactInfo] = useState({
         Name: "",
         Email: "",

@@ -1,16 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import ReactGA from "react-ga4";
 
 
 function About() {
-    useEffect(() => {
-        ReactGA.send({
-            hitType: "pageview",
-            page: window.location.pathname,
-            title: "About",
-        });
-      }, []);
-
     const [showTopButton, setShowTopButton] = useState(false);
 
     useEffect(() => {
