@@ -43,6 +43,26 @@ function Projects() {
                     link="https://github.com/ShaharAshe/projec_euler"
                 />
                 <ProjectsCards
+                    title="Scam Reporting Application"
+                    languageTools="HTML, CSS, JavaScript, Thymeleaf, Bootstrap"
+                    link="https://github.com/ShaharAshe/scam-reporting-app"
+                />
+                <ProjectsCards
+                    title="Pizza Ordering Application"
+                    languageTools="Java, Spring Boot, JavaScript, React, CSS"
+                    link="https://github.com/ShaharAshe/PizzaOrderingSystem"
+                />
+                <ProjectsCards
+                    title="Virtual File System"
+                    languageTools="Java"
+                    link="https://github.com/ShaharAshe/VirtualFileSystem"
+                />
+                <ProjectsCards
+                    title="URL Crawler"
+                    languageTools="Java, HTTP Client, Multithreading"
+                    link="https://github.com/ShaharAshe/url-crawler"
+                />
+                <ProjectsCards
                     title="Tip Calculator Bot"
                     languageTools="Python, Telegram Bot API"
                     link="https://t.me/Calc_Tip_bot"
