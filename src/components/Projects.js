@@ -53,6 +53,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/PizzaOrderingSystem"
                 />
                 <ProjectsCards
+                    title="Memory Game App"
+                    languageTools="React.js, Bootstrap, JavaScript, HTML, CSS"
+                    link="https://github.com/ShaharAshe/MemoryGameApp"
+                />
+                <ProjectsCards
                     title="Virtual File System"
                     languageTools="Java"
                     link="https://github.com/ShaharAshe/VirtualFileSystem"
