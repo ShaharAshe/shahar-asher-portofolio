@@ -71,6 +71,16 @@ body, div {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='whitesmoke' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+.headLink {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
+.headLink:hover {
+    text-decoration: none;
+    color: rgb(135, 222, 145) !important;
+}
+
 .nav-link {
     color: whitesmoke !important;
     font-size: 1.1em;
@@ -286,7 +296,7 @@ body, div {
 }
 
 .link-a {
-    color: #218838; /* Bright blue for links */
+    color: #218838;
     text-decoration: none;
 }
 
