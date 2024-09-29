@@ -7,7 +7,7 @@ function Header() {
             <div className="container-fluid text-center">
                 <div className="row">
                     <div className="col">
-                        <h2>Shahar Asher</h2>
+                        <Link className="nav-link" to="/"><h2>Shahar Asher</h2></Link>
                     </div>
                 </div>
 
