@@ -43,6 +43,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/projec_euler"
                 />
                 <ProjectsCards
+                    title="Full Page Canvas Drawing Application"
+                    languageTools="HTML, CSS, JavaScript"
+                    link="https://github.com/ShaharAshe/draw-it"
+                />
+                <ProjectsCards
                     title="Scam Reporting Application"
                     languageTools="HTML, CSS, JavaScript, Thymeleaf, Bootstrap"
                     link="https://github.com/ShaharAshe/scam-reporting-app"
