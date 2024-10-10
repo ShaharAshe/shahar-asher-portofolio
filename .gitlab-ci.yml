@@ -1,23 +1,16 @@
+image: node:latest
+
 stages:
-  - build
   - deploy
 
-build:
-  stage: build
-  script:
-    - npm install    # Install dependencies
-    - npm run build  # Build the React app
-  artifacts:
-    paths:
-      - build        # Save the build folder
-
-deploy:
+deploy_prod:
   stage: deploy
   script:
-    - echo "Deploying to GitLab Pages..."
-    - mv build public  # Rename the build folder for GitLab Pages
-  artifacts:
-    paths:
-      - public
+    - echo "REACT_APP_BASE_URL=https://culturenet-apis.netlify.app/.netlify/functions/api" >> ".env"
+    - cd src
+    - npm install --legacy-peer-deps
+    - npm install netlify-cli -g
+    - npm run build
+    - netlify deploy --dir "build" --auth $AUTH_TOKEN --site $SITE_ID_PROD --prod
   only:
-    - main  # Deploy only on the main branch
+    - main
