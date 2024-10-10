@@ -1,0 +1,23 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install    # Install dependencies
+    - npm run build  # Build the React app
+  artifacts:
+    paths:
+      - build        # Save the build folder
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying to GitLab Pages..."
+    - mv build public  # Rename the build folder for GitLab Pages
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # Deploy only on the main branch
