@@ -43,6 +43,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/projec_euler"
                 />
                 <ProjectsCards
+                    title="GPA Calculator"
+                    languageTools="Python"
+                    link="https://gitlab.com/ShaharAshe/avg_gpa_calculator"
+                />
+                <ProjectsCards
                     title="Full Page Canvas Drawing Application"
                     languageTools="HTML, CSS, JavaScript"
                     link="https://github.com/ShaharAshe/draw-it"
