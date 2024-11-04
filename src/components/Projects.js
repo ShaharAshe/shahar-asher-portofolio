@@ -43,6 +43,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/projec_euler"
                 />
                 <ProjectsCards
+                    title="Exchange Rate Converter"
+                    languageTools="C#, .NET, API Integration"
+                    link="https://github.com/ShaharAshe/ExchangeRateConverter"
+                />
+                <ProjectsCards
                     title="GPA Calculator"
                     languageTools="Python"
                     link="https://gitlab.com/ShaharAshe/avg_gpa_calculator"
