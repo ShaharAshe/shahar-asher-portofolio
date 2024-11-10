@@ -1,7 +1,7 @@
 import '../css/style.css';
-import gitIcon from '../images/github.png';
-import linkedinIcon from '../images/linkedin.png';
-import mailIcon from '../images/email.png';
+// import gitIcon from '../images/github.png';
+// import linkedinIcon from '../images/linkedin.png';
+// import mailIcon from '../images/email.png';
 
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
                 <h1>Hey, I'm Shahar Asher</h1>
                 <p className="role">Software Developer | Full Stack Developer</p>
             </div>
-            <div className="social-links">
+            {/* <div className="social-links">
                 <a href="https://github.com/ShaharAshe" target="_blank" rel="noopener noreferrer">
                     <img src={gitIcon} alt='GitHub' className="social-icon" />
                 </a>
@@ -21,7 +21,7 @@ function Home() {
                 <a href="mailto:shaharas30@gmail.com">
                     <img src={mailIcon} alt='Mail' className="social-icon" />
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 }

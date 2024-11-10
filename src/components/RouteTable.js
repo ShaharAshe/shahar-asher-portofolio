@@ -7,10 +7,12 @@ import Contact from "./Contact"
 import Header from "./Header";
 import ErrorPage from "./ErrorPage"
 import '../css/style.css'
+import SocialLinks from "./SocialLinks";
 
 
 function RouteTable(){
     return(
+        <>
         <HashRouter>
         <Header/>
             <Routes>
@@ -20,7 +22,9 @@ function RouteTable(){
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="*" element={<ErrorPage/>} />
             </Routes>
+        <SocialLinks/>
         </HashRouter>
+        </>
     );
 }
 
