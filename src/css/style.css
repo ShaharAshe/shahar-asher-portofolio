@@ -343,3 +343,62 @@ body, div {
     width: 35px;
     height: 35px;
 }
+
+/* pdf */
+
+.pdf-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 20px;
+  }
+  
+  .pdf-nav-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pdf-nav-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pdf-nav-button:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+
+  .download-button {
+    background-color: #28a745;
+    text-decoration: none;
+  }
+  
+  .download-button:hover {
+    background-color: #218838;
+    text-decoration: none;
+  }
+
+  .open-button {
+    background-color: #17a2b8;
+    text-decoration: none;
+  }
+  
+  .open-button:hover {
+    background-color: #138496;
+    text-decoration: none;
+  }
