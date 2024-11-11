@@ -1,5 +1,12 @@
 # Portfolio Website
 
+![Portfolio](https://img.shields.io/badge/Project-Portfolio-orange)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![React Router](https://img.shields.io/badge/Router-react--router--dom-blueviolet)
+![EmailJS](https://img.shields.io/badge/Email-EmailJS-red)
+![Deployed](https://img.shields.io/badge/Deployed-GitHub%20Pages-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 This is a personal portfolio website built using React. The website showcases my skills, projects, and provides a way to contact me.
 
 ## Table of Contents
@@ -54,3 +61,9 @@ You can view my portfolio website at [https://shaharashe.github.io/shahar-asher-
 ---
 
 This project is a showcase of my skills and projects. I am open to feedback and suggestions for improvement.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
