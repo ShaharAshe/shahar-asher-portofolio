@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shahar-asher-portofolio/static/css/main.aed541f2.css",
-    "main.js": "/shahar-asher-portofolio/static/js/main.6a33a2bf.js",
+    "main.css": "/shahar-asher-portofolio/static/css/main.4706cba0.css",
+    "main.js": "/shahar-asher-portofolio/static/js/main.fadbb78a.js",
     "static/js/453.f6798a58.chunk.js": "/shahar-asher-portofolio/static/js/453.f6798a58.chunk.js",
     "static/media/pdf.worker.min.mjs": "/shahar-asher-portofolio/static/media/pdf.worker.min.8bec976a1a536e55abd8.mjs",
     "static/media/CV - Shahar Asher.pdf": "/shahar-asher-portofolio/static/media/CV - Shahar Asher.fe8ab5bb96e463a30445.pdf",
@@ -9,12 +9,12 @@
     "static/media/email.png": "/shahar-asher-portofolio/static/media/email.9e9044d03ac9a74adad5.png",
     "static/media/linkedin.png": "/shahar-asher-portofolio/static/media/linkedin.9e09705d36d640b4c5fa.png",
     "index.html": "/shahar-asher-portofolio/index.html",
-    "main.aed541f2.css.map": "/shahar-asher-portofolio/static/css/main.aed541f2.css.map",
-    "main.6a33a2bf.js.map": "/shahar-asher-portofolio/static/js/main.6a33a2bf.js.map",
+    "main.4706cba0.css.map": "/shahar-asher-portofolio/static/css/main.4706cba0.css.map",
+    "main.fadbb78a.js.map": "/shahar-asher-portofolio/static/js/main.fadbb78a.js.map",
     "453.f6798a58.chunk.js.map": "/shahar-asher-portofolio/static/js/453.f6798a58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed541f2.css",
-    "static/js/main.6a33a2bf.js"
+    "static/css/main.4706cba0.css",
+    "static/js/main.fadbb78a.js"
   ]
 }
