@@ -330,7 +330,7 @@ body, div {
 
 .social-links-d {
     position: fixed;
-    top: 50%;
+    top: 25%;
     left: 100%;
     transform: translateX(-100%);
     z-index: 100;

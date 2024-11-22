@@ -38,6 +38,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/LeetCode"
                 />
                 <ProjectsCards
+                    title="HackerRank Problem Solutions"
+                    languageTools="C++"
+                    link="https://github.com/ShaharAshe/HackerRank"
+                />
+                <ProjectsCards
                     title="Project Euler Problem Solutions"
                     languageTools="Python"
                     link="https://github.com/ShaharAshe/projec_euler"
