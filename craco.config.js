@@ -13,6 +13,7 @@ module.exports = {
           crypto: require.resolve("crypto-browserify"), // Polyfill for crypto
           http: require.resolve("stream-http"), // Polyfill for http
           util: require.resolve("util/"), // Polyfill for util
+          assert: require.resolve("assert/"), // Polyfill for assert
         };
         return webpackConfig;
       },
