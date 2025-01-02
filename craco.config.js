@@ -3,8 +3,9 @@ module.exports = {
       configure: (webpackConfig) => {
         webpackConfig.resolve.fallback = {
           ...webpackConfig.resolve.fallback,
-          fs: false, // Add this line
-          path: require.resolve("path-browserify"),
+          fs: false, // Ignore fs
+          path: require.resolve("path-browserify"), // Polyfill for path
+          zlib: require.resolve("browserify-zlib"), // Polyfill for zlib
         };
         return webpackConfig;
       },
