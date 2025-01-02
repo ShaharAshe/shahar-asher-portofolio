@@ -3,6 +3,9 @@
   "name": "shahar-asher-portofolio",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "path": false
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
