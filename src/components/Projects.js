@@ -118,11 +118,6 @@ function Projects() {
                     link="https://github.com/ShaharAshe/AdPostExpress" 
                 />
                 <ProjectsCards 
-                    title="NLP Project: Generating Song Lyrics in the Style of Eminem" 
-                    languageTools="Python, PyTorch, Scikit-Learn, Matplotlib, Pandas, Numpy" 
-                    link="https://github.com/ShaharAshe/Eminem-Song-Generator" 
-                />
-                <ProjectsCards 
                     title="Mars Photo Gallery" 
                     languageTools="JavaScript, HTML, CSS, Bootstrap, NASA API" 
                     link="https://github.com/ShaharAshe/mars_photo_gallery" 

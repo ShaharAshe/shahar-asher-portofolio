@@ -48,6 +48,11 @@ function AImodels() {
                     model="/model"
                     fetch_l="Shaharas/Tel-Aviv_Jerusalem-classified"
                 />
+                <AIProjectsCards 
+                    title="NLP Project: Generating Song Lyrics in the Style of Eminem" 
+                    description="Python, PyTorch, Scikit-Learn, Matplotlib, Pandas, Numpy" 
+                    link="https://github.com/ShaharAshe/Eminem-Song-Generator" 
+                />
             </div>
             {showTopButton && (
                 <button className="back-to-top" onClick={scrollToTop}>
