@@ -11,6 +11,7 @@ module.exports = {
           tls: false, // Ignore tls
           https: require.resolve("https-browserify"), // Polyfill for https
           crypto: require.resolve("crypto-browserify"), // Polyfill for crypto
+          http: require.resolve("stream-http"), // Polyfill for http
         };
         return webpackConfig;
       },
