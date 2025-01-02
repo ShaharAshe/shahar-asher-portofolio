@@ -8,6 +8,7 @@ module.exports = {
           zlib: require.resolve("browserify-zlib"), // Polyfill for zlib
           os: require.resolve("os-browserify/browser"), // Polyfill for os
           net: require.resolve("net-browserify"), // Polyfill for net
+          tls: false, // Ignore tls
         };
         return webpackConfig;
       },
