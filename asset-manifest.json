@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/shahar-asher-portofolio/static/css/main.4706cba0.css",
-    "main.js": "/shahar-asher-portofolio/static/js/main.b57ced73.js",
-    "static/js/453.f6798a58.chunk.js": "/shahar-asher-portofolio/static/js/453.f6798a58.chunk.js",
+    "main.css": "/shahar-asher-portofolio/static/css/main.47e8d0ea.css",
+    "main.js": "/shahar-asher-portofolio/static/js/main.0c1e82de.js",
+    "static/js/584.f9430efe.chunk.js": "/shahar-asher-portofolio/static/js/584.f9430efe.chunk.js",
+    "static/js/316.2825ad9f.chunk.js": "/shahar-asher-portofolio/static/js/316.2825ad9f.chunk.js",
+    "static/js/278.3278364b.chunk.js": "/shahar-asher-portofolio/static/js/278.3278364b.chunk.js",
+    "static/js/453.10e7c09c.chunk.js": "/shahar-asher-portofolio/static/js/453.10e7c09c.chunk.js",
+    "static/js/152.550bf4e8.chunk.js": "/shahar-asher-portofolio/static/js/152.550bf4e8.chunk.js",
     "static/media/pdf.worker.min.mjs": "/shahar-asher-portofolio/static/media/pdf.worker.min.8bec976a1a536e55abd8.mjs",
     "static/media/CV - Shahar Asher.pdf": "/shahar-asher-portofolio/static/media/CV - Shahar Asher.795bc984e5a23d3e83fa.pdf",
     "static/media/github.png": "/shahar-asher-portofolio/static/media/github.09006c1ce3a07fc4f71a.png",
     "static/media/email.png": "/shahar-asher-portofolio/static/media/email.9e9044d03ac9a74adad5.png",
     "static/media/linkedin.png": "/shahar-asher-portofolio/static/media/linkedin.9e09705d36d640b4c5fa.png",
     "index.html": "/shahar-asher-portofolio/index.html",
-    "main.4706cba0.css.map": "/shahar-asher-portofolio/static/css/main.4706cba0.css.map",
-    "main.b57ced73.js.map": "/shahar-asher-portofolio/static/js/main.b57ced73.js.map",
-    "453.f6798a58.chunk.js.map": "/shahar-asher-portofolio/static/js/453.f6798a58.chunk.js.map"
+    "main.47e8d0ea.css.map": "/shahar-asher-portofolio/static/css/main.47e8d0ea.css.map",
+    "main.0c1e82de.js.map": "/shahar-asher-portofolio/static/js/main.0c1e82de.js.map",
+    "316.2825ad9f.chunk.js.map": "/shahar-asher-portofolio/static/js/316.2825ad9f.chunk.js.map",
+    "278.3278364b.chunk.js.map": "/shahar-asher-portofolio/static/js/278.3278364b.chunk.js.map",
+    "453.10e7c09c.chunk.js.map": "/shahar-asher-portofolio/static/js/453.10e7c09c.chunk.js.map",
+    "152.550bf4e8.chunk.js.map": "/shahar-asher-portofolio/static/js/152.550bf4e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4706cba0.css",
-    "static/js/main.b57ced73.js"
+    "static/css/main.47e8d0ea.css",
+    "static/js/main.0c1e82de.js"
   ]
 }

@@ -1,0 +1,1 @@
+(self.webpackChunkshahar_asher_portofolio=self.webpackChunkshahar_asher_portofolio||[]).push([[584],{4584:()=>{}}]);
