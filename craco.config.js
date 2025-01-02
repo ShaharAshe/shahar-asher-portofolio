@@ -10,6 +10,7 @@ module.exports = {
           net: require.resolve("net-browserify"), // Polyfill for net
           tls: false, // Ignore tls
           https: require.resolve("https-browserify"), // Polyfill for https
+          crypto: require.resolve("crypto-browserify"), // Polyfill for crypto
         };
         return webpackConfig;
       },
