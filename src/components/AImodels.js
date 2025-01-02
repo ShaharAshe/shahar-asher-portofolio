@@ -36,13 +36,17 @@ function AImodels() {
                     title="scooter or motorcycle classified"
                     description="fast.ai, Python"
                     link="https://www.kaggle.com/code/shaharas30/is-it-a-bird-scooter-or-motorcycle"
+                    huggingFaceLink="https://huggingface.co/spaces/Shaharas/scooter_motorcycle-classified"
                     model="/model"
+                    fetch_l="Shaharas/scooter_motorcycle-classified"
                 />
                 <AIProjectsCards
-                    title="LeetCode Problem Solutions"
-                    description="C++, C, Python, Java, JavaScript, PostgreSQL, MySQL"
-                    link="https://github.com/ShaharAshe/LeetCode"
-                    model="https://github.com/ShaharAshe/LeetCode/tree/main/Model"
+                    title="Jerusalem or Tel Aviv classified"
+                    description="fast.ai, Python"
+                    link="https://www.kaggle.com/code/shaharas30/is-it-a-bird-tel-aviv-jerusalem-classified"
+                    huggingFaceLink="https://huggingface.co/spaces/Shaharas/Tel-Aviv_Jerusalem-classified"
+                    model="/model"
+                    fetch_l="Shaharas/Tel-Aviv_Jerusalem-classified"
                 />
             </div>
             {showTopButton && (

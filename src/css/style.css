@@ -148,11 +148,17 @@ body, div {
     font-size: 1.3em;
     font-weight: bold;
     color: whitesmoke;
+    text-decoration: none;
+}
+.card-title:hover {
+    text-decoration: none;
+    color: rgb(135, 222, 145) !important;
 }
 
 .card-text {
     font-size: 1em;
     color: #cccccc;
+    text-decoration: none;
 }
 
 .btn-success {
@@ -173,13 +179,14 @@ body, div {
 
 .btn-primary {
     background-color: #007bff;
-    border: none;
     color: whitesmoke;
-    text-align: center;
-    padding: 10px;
+    border: none;
+    padding: 10px 20px;
     text-decoration: none;
+    text-align: center;
     display: inline-block;
-    margin-top: auto;
+    margin-top: 20px;
+    border-radius: 5px;
     transition: background-color 0.3s;
 }
 
@@ -402,3 +409,152 @@ body, div {
     background-color: #138496;
     text-decoration: none;
   }
+
+.ai-nav-link {
+    color: whitesmoke !important;
+    font-size: 1.1em;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.ai-nav-link:hover {
+    color: burlywood !important;
+    text-decoration: none;
+}
+
+
+
+/* --------- */
+
+/* Global Container */
+.aii-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card and Title */
+.aii-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.aii-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+/* Upload Section */
+.aii-upload-section {
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    background-color: #f9fafb;
+    cursor: pointer;
+}
+
+.aii-upload-label {
+    display: inline-block;
+}
+
+.aii-upload-text {
+    color: #4b5563;
+}
+
+.aii-upload-instruction {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Loading Spinner */
+.aii-loading-container {
+    text-align: center;
+    color: #3b82f6;
+}
+
+.aii-loading-spinner {
+    display: inline-block;
+    border-top: 4px solid #3b82f6;
+    border-right: 4px solid transparent;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Error Message */
+.aii-error-message {
+    background-color: #fee2e2;
+    border: 1px solid #f87171;
+    color: #b91c1c;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+/* Image Preview */
+.aii-image-preview {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.aii-image-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.aii-image-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Prediction Result */
+.aii-prediction-result {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.aii-prediction-result h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.aii-prediction-result p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #16a34a;
+}
+
+/* Error Container (for model issue) */
+.aii-error-container {
+    text-align: center;
+    padding: 2rem;
+    color: #dc2626;
+    font-size: 1.125rem;
+}
+
+/* --------- */
