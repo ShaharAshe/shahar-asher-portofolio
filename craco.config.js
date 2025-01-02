@@ -9,6 +9,7 @@ module.exports = {
           os: require.resolve("os-browserify/browser"), // Polyfill for os
           net: require.resolve("net-browserify"), // Polyfill for net
           tls: false, // Ignore tls
+          https: require.resolve("https-browserify"), // Polyfill for https
         };
         return webpackConfig;
       },

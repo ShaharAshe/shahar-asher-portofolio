@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Client } from "@gradio/client";
 import { useLocation } from 'react-router-dom';
-import '../css/style.css'; // Make sure to import the updated CSS file
+import '../css/style.css';
 
 const ModelPlay = () => {
     const location = useLocation();
