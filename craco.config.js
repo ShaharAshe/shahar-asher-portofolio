@@ -14,6 +14,7 @@ module.exports = {
           http: require.resolve("stream-http"), // Polyfill for http
           util: require.resolve("util/"), // Polyfill for util
           assert: require.resolve("assert/"), // Polyfill for assert
+          querystring: require.resolve("querystring-es3"), // Polyfill for querystring
         };
         return webpackConfig;
       },
