@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import '../css/style.css';
-import { useState } from 'react';
 
 
 function ProjectsCards(props) {
