@@ -12,6 +12,7 @@ module.exports = {
           https: require.resolve("https-browserify"), // Polyfill for https
           crypto: require.resolve("crypto-browserify"), // Polyfill for crypto
           http: require.resolve("stream-http"), // Polyfill for http
+          util: require.resolve("util/"), // Polyfill for util
         };
         return webpackConfig;
       },
