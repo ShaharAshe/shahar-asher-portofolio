@@ -48,6 +48,11 @@ function Projects() {
                     link="https://github.com/ShaharAshe/projec_euler"
                 />
                 <ProjectsCards
+                    title="PicoCTF Problem Solutions"
+                    languageTools="Python"
+                    link="https://github.com/ShaharAshe/picoctf"
+                />
+                <ProjectsCards
                     title="Exchange Rate Converter"
                     languageTools="C#, .NET, API Integration"
                     link="https://github.com/ShaharAshe/ExchangeRateConverter"
