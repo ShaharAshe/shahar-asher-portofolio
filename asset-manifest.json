@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shahar-asher-portofolio/static/css/main.47e8d0ea.css",
-    "main.js": "/shahar-asher-portofolio/static/js/main.63a7cfc2.js",
+    "main.js": "/shahar-asher-portofolio/static/js/main.42f6743c.js",
     "static/js/584.f9430efe.chunk.js": "/shahar-asher-portofolio/static/js/584.f9430efe.chunk.js",
     "static/js/316.2825ad9f.chunk.js": "/shahar-asher-portofolio/static/js/316.2825ad9f.chunk.js",
     "static/js/278.3278364b.chunk.js": "/shahar-asher-portofolio/static/js/278.3278364b.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/linkedin.png": "/shahar-asher-portofolio/static/media/linkedin.9e09705d36d640b4c5fa.png",
     "index.html": "/shahar-asher-portofolio/index.html",
     "main.47e8d0ea.css.map": "/shahar-asher-portofolio/static/css/main.47e8d0ea.css.map",
-    "main.63a7cfc2.js.map": "/shahar-asher-portofolio/static/js/main.63a7cfc2.js.map",
+    "main.42f6743c.js.map": "/shahar-asher-portofolio/static/js/main.42f6743c.js.map",
     "316.2825ad9f.chunk.js.map": "/shahar-asher-portofolio/static/js/316.2825ad9f.chunk.js.map",
     "278.3278364b.chunk.js.map": "/shahar-asher-portofolio/static/js/278.3278364b.chunk.js.map",
     "453.10e7c09c.chunk.js.map": "/shahar-asher-portofolio/static/js/453.10e7c09c.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.47e8d0ea.css",
-    "static/js/main.63a7cfc2.js"
+    "static/js/main.42f6743c.js"
   ]
 }
