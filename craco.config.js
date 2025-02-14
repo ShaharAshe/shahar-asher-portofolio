@@ -15,6 +15,8 @@ module.exports = {
           util: require.resolve("util/"), // Polyfill for util
           assert: require.resolve("assert/"), // Polyfill for assert
           querystring: require.resolve("querystring-es3"), // Polyfill for querystring
+          vm: require.resolve("vm-browserify"), // Polyfill for vm
+          async_hooks: false // Disable async_hooks
         };
         return webpackConfig;
       },
